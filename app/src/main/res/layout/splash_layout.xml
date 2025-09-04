@@ -19,14 +19,15 @@
         android:id="@+id/textsplash"
         android:text="Carregando"
         android:layout_below="@+id/imgballsplash"
-        android:layout_marginLeft="12dp"
+        android:layout_marginLeft="5dp"
         android:textColor="#000"
         android:textSize="22sp"
         android:fontFamily="@font/asimovianregular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 <com.google.android.material.progressindicator.LinearProgressIndicator
-    android:layout_below="@+id/textsplash"
+    android:layout_below="@+id/imgballsplash"
     android:layout_width="100dp"
+    android:layout_marginLeft="12dp"
     android:layout_height="wrap_content"/>
 </RelativeLayout>
