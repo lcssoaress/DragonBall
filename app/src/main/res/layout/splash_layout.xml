@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dragonballfundo"
+
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgballsplash"
+        android:src="@drawable/ball"
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+
+    <TextView
+        android:id="@+id/textsplash"
+        android:text="Carregando"
+        android:layout_below="@+id/imgballsplash"
+        android:layout_marginLeft="12dp"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:fontFamily="@font/asimovianregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<com.google.android.material.progressindicator.LinearProgressIndicator
+    android:layout_below="@+id/textsplash"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"/>
+</RelativeLayout>
