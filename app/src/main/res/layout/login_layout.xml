@@ -7,34 +7,42 @@
     android:layout_height="match_parent"
     android:layout_margin="20dp"
     android:orientation="vertical"
+
     tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_gravity="center"
         android:src="@drawable/ball" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/edtemail"
+        app:startIconDrawable="@drawable/baseline_email"
+        app:endIconMode="clear_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="insira seu email:">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edtemail"
+        android:id="@+id/edtsenha"
+        app:startIconDrawable="@drawable/baseline_lock"
+        app:endIconMode="password_toggle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="insira seu email:">
+        android:hint="insira sua senha:">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>
