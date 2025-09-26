@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item>
+    <item
+        android:id="@+id/tEmail"
+        android:title="mail">
         <menu>
             <item
                 android:id="@+id/mInbox"
@@ -21,6 +23,15 @@
                 android:title="lixo" />
         </menu>
     </item>
+    <item android:title="information">
+        <menu>
+            <item
+                android:title="FAQ"/>
+            <item
+                android:title="Log out"
+                />
 
+        </menu>
+    </item>
 
 </menu>
