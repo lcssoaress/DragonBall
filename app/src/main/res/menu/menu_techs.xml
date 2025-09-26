@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mSescopeta"
+        android:icon="@drawable/baseline_colorize_24"
+        android:title="Super Escopeta"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mBalista"
+        android:icon="@drawable/baseline_colorize_24"
+        android:title="Balista"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mRocket"
+        android:icon="@drawable/baseline_colorize_24"
+        android:title="Rocket"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mBFG3000"
+        android:icon="@drawable/baseline_colorize_24"
+        android:title="BFG3000"
+        app:showAsAction="ifRoom" />
+</menu>

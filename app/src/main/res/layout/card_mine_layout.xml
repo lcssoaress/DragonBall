@@ -23,13 +23,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="|DEMONS MUST SUFFER|"
-        android:textColor="#FF0000"
-        android:textSize="30dp" />
+
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="360dp"
