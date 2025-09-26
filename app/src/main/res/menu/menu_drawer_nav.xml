@@ -26,8 +26,11 @@
     <item android:title="information">
         <menu>
             <item
-                android:title="FAQ"/>
+                android:id="@+id/iFAQ"
+                android:title="FAQ"
+                />
             <item
+                android:id="@+id/iLogOut"
                 android:title="Log out"
                 />
 

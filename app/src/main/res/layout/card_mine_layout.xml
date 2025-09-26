@@ -17,7 +17,7 @@
         <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/menu_slayer"
+            app:menu="@menu/menu_drawer_nav"
             app:navigationIcon="@drawable/baseline_arrow_back_24"
             app:title="Dilacerar" />
 
