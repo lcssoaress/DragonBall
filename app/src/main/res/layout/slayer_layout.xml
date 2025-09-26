@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlayerActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <com.google.android.material.appbar.MaterialToolbar
+           android:layout_width="match_parent"
+           app:menu="@menu/menu_slayer"
+           app:navigationIcon="@drawable/baseline_arrow_back_24"
+           android:layout_height="wrap_content"
+           app:title="Dilacerar"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavorite"
+        android:icon="@drawable/baseline_send_24"
+        android:title="Arquivo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mRevert"
+        android:icon="@drawable/baseline_send_24"
+        android:title="favorite"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSendFeedback"
+        android:icon="@drawable/baseline_send_24"
+        android:title="Send feedback"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/baseline_send_24"
+        android:title="Send feedback"
+        app:showAsAction="always" />
+</menu>
