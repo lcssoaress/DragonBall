@@ -9,16 +9,13 @@
     <item
         android:id="@+id/mRevert"
         android:icon="@drawable/baseline_send_24"
-        android:title="favorite"
-        app:showAsAction="ifRoom" />
+        android:title="Estripar" />
     <item
         android:id="@+id/mSendFeedback"
         android:icon="@drawable/baseline_send_24"
-        android:title="Send feedback"
-        app:showAsAction="ifRoom" />
+        android:title="Demolir" />
     <item
         android:id="@+id/help"
         android:icon="@drawable/baseline_send_24"
-        android:title="Send feedback"
-        app:showAsAction="always" />
+        android:title="Lacerar" />
 </menu>
