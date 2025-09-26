@@ -81,14 +81,7 @@
                 android:textColor="#FF0200"
                 android:textSize="20dp" />
 
-            <Button
-                style="@style/Widget.Material3.Button.OutlinedButton"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_below="@+id/txt2"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="60dp"
-                android:backgroundTint="#FF0400" />
+
 
         </RelativeLayout>
 
@@ -151,14 +144,7 @@
                 android:textColor="#FF3B00"
                 android:textSize="20dp" />
 
-            <Button
-                style="@style/Widget.Material3.Button.OutlinedButton"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_below="@+id/txt2"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="60dp"
-                android:backgroundTint="#FF3D00"
+
 
         </RelativeLayout>
 
@@ -220,14 +206,7 @@
                 android:textColor="#fff"
                 android:textSize="20dp" />
 
-            <Button
-                style="@style/Widget.Material3.Button.OutlinedButton"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_below="@+id/txt2"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="60dp"
-                android:backgroundTint="#fff" />
+
 
         </RelativeLayout>
 
@@ -242,7 +221,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:menu="@menu/menu_techs"
-            android:layout_alignParentBottom="true"/>
+            android:layout_alignParentBottom="true"
+            app:labelVisibilityMode="labeled"/>
 
     </RelativeLayout>
 
