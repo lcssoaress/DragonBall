@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".CardMineActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            app:menu="@menu/menu_slayer"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            android:layout_height="wrap_content"
+            app:title="Dilacerar"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="|DEMONS MUST SUFFER|"
+        android:textColor="#FF0000"
+        android:textSize="30dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/doom" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="90dp"
+                android:padding="20dp"
+                android:text="DOOM ETERNAL"
+                android:textColor="#FF0400" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/txt1"
+                android:padding="20dp"
+                android:text="Guns/Techs"
+                android:textColor="#FF0000" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="20dp"
+                android:text="RIP AND TEAR"
+                android:textColor="#FF0500"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt3"
+                android:paddingLeft="20dp"
+                android:text="UNTIL ITS DONE"
+                android:textColor="#FF0200"
+                android:textSize="20dp" />
+
+            <Button
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/txt2"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#FF0400"
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/doom64" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:padding="20dp"
+                android:text="DOOM 64"
+                android:textColor="#FF3E00" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/txt1"
+                android:padding="20dp"
+                android:text="Guns/Techs"
+                android:textColor="#FF3D00" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="20dp"
+                android:text="MAKE YOUR WAY"
+                android:textColor="#FF3D00"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt3"
+                android:paddingLeft="20dp"
+                android:text="TILL THE END"
+                android:textColor="#FF3B00"
+                android:textSize="20dp" />
+
+            <Button
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/txt2"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#FF3D00"
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/doomclassic" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:padding="20dp"
+                android:text="DOOM CLASSIC"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/txt1"
+                android:padding="20dp"
+                android:text="Guns/Techs"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="20dp"
+                android:text="MAKE THEM PAY"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt3"
+                android:paddingLeft="20dp"
+                android:text="FOR YOUR DEAD FRIEND"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <Button
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/txt2"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#fff"/>
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
