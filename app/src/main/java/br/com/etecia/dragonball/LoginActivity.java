@@ -39,7 +39,7 @@ MaterialButton btnlogin,btnsign;
                 senha = txtsenha.getText().toString();
 
                 if (email.equals("etecia") && senha.equals("etecia")){
-                    Intent(getApplicationContext(),MenuPrincipalActivity.class);
+                    new Intent(getApplicationContext(),CardMineActivity.class);
                     finish();
 
                 }else{
