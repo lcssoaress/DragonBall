@@ -5,16 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/fundologin"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imglogin"
-        android:layout_marginTop="10dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
         android:scaleType="centerCrop"
         android:src="@drawable/caco"
 
@@ -52,19 +52,22 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="esqueceu sua senha? clique aqui!"
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnlogin"
-        style="@style/Widget.Material3.Button.IconButton.Outlined"
-        android:layout_width="150dp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtconfirmsenha"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Login"
         android:layout_marginTop="20dp"
+        android:hint="confirme sua senha:"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/baseline_lock_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnsign"
@@ -72,7 +75,16 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:text="sign in"
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnvoltar"
+        style="@style/Widget.Material3.Button.IconButton.Outlined"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:text="voltar"
 
 </LinearLayout>
