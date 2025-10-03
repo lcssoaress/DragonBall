@@ -1,7 +1,9 @@
 package br.com.etecia.dragonball;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,8 +35,17 @@ MaterialButton btnlogin,btnsign;
             @Override
             public void onClick(View view) {
                 String email, senha;
-                email = txtemail.getText().toString()
+                email = txtemail.getText().toString();
                 senha = txtsenha.getText().toString();
+
+                if (email.equals("etecia") && senha.equals("etecia")){
+                    Intent(getApplicationContext(),MenuPrincipalActivity.class);
+                    finish();
+
+                }else{
+                    Toast.makeText(getApplicationContext(),"Usuario ou Senha invalidos",Toast.LENGTH_SHORT).show();
+
+                }
             }
         });
     }
