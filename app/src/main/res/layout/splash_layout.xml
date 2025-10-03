@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal|center_vertical"
-    android:background="@drawable/fundo"
+    android:background="@drawable/fundologin"
     tools:context=".SplashActivity">
 
     <ImageView
@@ -14,14 +14,13 @@
         android:layout_height="150dp"
         android:scaleType="centerCrop"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/imgapp"
+        android:src="@drawable/imgappnovo"
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="DOOM App"
     android:textStyle="bold"
     android:textColor="#FF0000"
-    android:fontFamily="@font/bitcountvingleinkvariablefont"
     android:textSize="26sp"
     />
         <com.google.android.material.progressindicator.CircularProgressIndicator
